@@ -1,4 +1,10 @@
-# Inginius-JuezUN-Container
+# Inginius-Docker-Container
+
+## Instalacion de un Contenedor Inginius con aplicacion JuesUN
+
+sudo docker docker run -d -p 80:80 -p 2222:22 -p443:443 -p 587:587 -p 3000:3000 -p 4567:4567 -p 8003:8003 -p 8088:8088 -p 27017:27017 -p 28017:28017 --name inginious --restart always -v /var/run/docker.sock:/var/run/docker.sock orlandc/inginious
+
+## Instrucciones Obsoletas
 
 Instrucciones para construir y desplegar el contenedor de Inginius-JuezUN
 
