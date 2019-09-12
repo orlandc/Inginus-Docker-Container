@@ -111,7 +111,7 @@ RUN useradd -ms /bin/bas docker && usermod -aG docker $(whoami)
 
 # Step 23/37
 RUN git clone https://github.com/JuezUN/Deployment.git JuezUN \
-	&& git clone https://github.com/orlandc/Inginus-JuezUN-Container.git ijn
+	&& git clone https://github.com/orlandc/Inginus-Docker-Container.git ijn
 
 # Step 24/37
 WORKDIR /tmp/JuezUN
